@@ -1,0 +1,45 @@
+<header id="header">
+    <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12">
+            <div class="header_bottom">
+                <div class="logo_area"><a href="index.html" class="logo"><img src="images/logo_tcv.png" alt="" style="max-width: 150px; margin-left: -40px;"></a></div>
+                <div class="add_banner" style="display: none;"><a href="#"><img src="images/addbanner_728x90_V1.jpg" alt=""></a></div>
+            </div>
+        </div>
+    </div>
+</header>
+<section id="navArea">
+    <nav class="navbar navbar-inverse" role="navigation">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+            <ul class="nav navbar-nav main_nav">
+                <li class="active"><a th:href="@{/}"><span class="fa fa-home desktop-home"></span><span class="mobile-show">Home</span></a></li>
+                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">TIN TỨC TỔNG HỢP</a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a th:href="@{/tin-tuc}">Thời sự</a></li>
+                        <li><a th:href="@{/kinh-doanh}">Kinh doanh</a></li>
+                        <li><a th:href="@{/giao-duc}">Giáo dục</a></li>
+                        <li><a th:href="@{/doi-song}">Đời sống</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">TÀI KHOẢN</a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a th:href="@{/account}">Thông tin tài khoản</a></li>
+<!--                        <li><a th:href="@{/danh-sach-trung-thuong}">Danh sách trúng thưởng</a></li>-->
+                    </ul>
+                </li>
+                <li><a th:href="@{/the-le-dich-vu}">THÔNG TIN DỊCH VỤ</a></li>
+                <li><a th:href="@{/chinh-sach-dich-vu}">CHÍNH SÁCH DỊCH VỤ</a></li>
+                <li><a th:href="@{/chinh-sach-bao-ve-thong-tin-ca-nhan}">CHÍNH SÁCH BẢO MẬT THÔNG TIN</a></li>
+<!--                <li class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">CHÍNH SÁCH DỊCH VỤ</a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a th:href="@{/chinh-sach-dich-vu}">Chính sách dịch vụ</a></li>
+                        <li><a th:href="@{/chinh-sach-bao-ve-thong-tin-ca-nhan}">Chính sách bảo vệ thông tin cá nhân khách hàng</a></li>
+                    </ul>
+                </li>-->
+            </ul>
+        </div>
+    </nav>
+</section>
